@@ -18,42 +18,44 @@
 
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark pt-2 pb-1">
-    <!-- Title Button -->
-    <a class="navbar-brand bg-info text-light pl-3 pr-3 h1" href="index.html">Latitude</a>
-    <button class="navbar-toggler bg-info" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <!-- Navbar Contents -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <!-- Unordered List (alignment=end) -->
-      <ul class="navbar-nav ml-auto">
-        <!-- Dropdown Toggle -->
-        <li class="nav-item active dropdown p-1">
-          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plots
-          </a>
-          <!-- Dropdown Menu -->
-          <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Max Temperature</a>
-            <a class="dropdown-item" href="#">Humidity</a>
-            <a class="dropdown-item" href="#">Cloudiness</a>
-            <a class="dropdown-item" href="#">Wind Speed</a>
-          </div>
-        </li>
-        <!-- Text Links -->
-        <li class="nav-item active p-1">
-          <a class="nav-link text-light" href="#">Comparison</a>
-        </li>
-        <li class="nav-item active p-1">
-          <a class="nav-link text-light" href="data.html">Data</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- CLOSE NAVBAR -->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd"> -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark pt-2 pb-1">
+        <!-- Title Button -->
+        <a class="navbar-brand bg-info text-light pl-3 pr-3 h1" href="index.html">Latitude</a>
+        <button class="navbar-toggler bg-info" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Contents -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Unordered List (alignment=end) -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Dropdown Toggle -->
+                <li class="nav-item active dropdown p-1">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </a>
+                    <!-- Dropdown Menu -->
+                    <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="max-temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind-speed.html">Wind Speed</a>
+                    </div>
+                </li>
+                <!-- Text Links -->
+                <li class="nav-item active p-1">
+                    <a class="nav-link text-light" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item active p-1">
+                    <a class="nav-link text-light" href="data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- CLOSE NAVBAR -->
 
 
   <!-- CONTAINER -->
@@ -6953,5 +6955,6 @@
     crossorigin="anonymous"></script>
 
 </body>
+<!-- CLOSE BODY -->
 
 </html>
