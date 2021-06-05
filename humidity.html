@@ -1,34 +1,156 @@
+<!DOCTYPE html>
 <html lang="en">
 
+
+<!-- HEAD -->
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latitude Humidity</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<body>
-
-    <i class="bi-thermometer-high" style="font-size: 2rem; color: cornflowerblue;"></i>
-    <br /><br />
-    <i class="bi-thermometer-half" style="font-size: 2rem; color: cornflowerblue;"></i>
-    <br /><br />
-    <i class="bi-sun" style="font-size: 2rem; color: #5bc0de"></i>
-    <br /><br />
-    <i class="bi-sun-fill" style="font-size: 2rem; color: cornflowerblue;"></i>
-    <br /><br />
-    <i class="bi-droplet" style="font-size: 2rem; color: cornflowerblue;"></i>
-    <br /><br />
-    <i class="bi-clouds" style="font-size: 2rem; color: cornflowerblue;"></i>
-    <br /><br />
-    <i class="bi-wind" style="font-size: 2rem; color: cornflowerblue;"></i>
-    <br /><br />
-    <i class="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i>
-    <br /><br />
+<!-- CLOSE HEAD -->
 
 
+<!-- BODY -->
+<body style="background-color: #E5E4E2">
+
+
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top pt-2 pb-1">
+        <!-- Title Button -->
+        <a class="navbar-brand bg-info text-light pl-3 pr-3 m-1 rounded h1" href="index.html">Latitude</a>
+        <button class="navbar-toggler bg-info" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar Contents -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Unordered List (alignment=end) -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Dropdown Toggle -->
+                <li class="nav-item active dropdown p-1">
+                    <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="bi-pencil-square" color: #5bc0de"></i> Plots
+                    </a>
+                    <!-- Dropdown Menu -->
+                    <div class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-dark" href="max-temperature.html">
+                            <i class="bi-sun" color: #5bc0de"></i> Max Temperature</a>
+                        <a class="dropdown-item text-dark" href="humidity.html">
+                            <i class="bi-droplet" color: #5bc0de"></i> Humidity</a>
+                        <a class="dropdown-item text-dark" href="cloudiness.html">
+                            <i class="bi-clouds" color: #5bc0de"></i> Cloudiness</a>
+                        <a class="dropdown-item text-dark" href="wind-speed.html">
+                            <i class="bi-wind" color: #5bc0de"></i> Wind Speed</a>
+                    </div>
+                </li>
+                <!-- Text Links -->
+                <li class="nav-item active p-1">
+                    <a class="nav-link text-light" href="comparison.html">
+                        <i class="bi-layers" color: #5bc0de"></i> Comparison</a>
+                </li>
+                <li class="nav-item active p-1">
+                    <a class="nav-link text-light" href="data.html">
+                        <i class="bi-table" color: #5bc0de"></i> Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- CLOSE NAVBAR -->
+
+
+    <!-- CONTAINER -->
+    <div class="container pt-5 pb-5">
+        <div class="row">
+
+            <!-- MAIN COLUMN -->
+            <div class="col-lg-8 col-sm-12 bg-light pt-4 pb-5 pl-5 pr-5">
+
+                <!-- Header row -->
+                <div class="row">
+                    <div class="h2 col text-info">
+                        Humidity
+                        <hr />
+                    </div>
+                </div>
+
+                <!-- Contents row -->
+                <div class="row d-flex justify-content-center ">
+
+                    <img src="Images/Fig_02.png" class="img-fluid" alt="Max Temperature">
+
+                    <div class="paragraph pt-4 pl-3 pr-3">
+                        The purpose of this project was to analyse how weather changes as you get closer to the equator.
+                        To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a
+                        dataset on over 500 cities.
+                    </div>
+
+                </div>
+            </div>
+            <!-- CLOSE MAIN COLUMN -->
+
+            <!-- SIDEBAR -->
+            <div class="col-lg-4 col-sm-12 pt-4 pb-4 pl-5 pr-5" style="background-color: #E5E4E2">
+
+                <!-- Header Row -->
+                <div class="row">
+                    <div class="h3 col text-info">
+                        Visualizations
+                        <hr />
+                    </div>
+                </div>
+
+                <!-- Contents row -->
+                <div class="row">
+
+                    <div class="col-lg-6 col-sm-3 p-1">
+                        <a href="max-temperature.html">
+                            <img src="Images/Fig_01.png" class="img-fluid" alt="Max Temperature">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-sm-3 p-1">
+                        <a href="humidity.html">
+                            <img src="Images/Fig_02.png" class="img-fluid rounded border border-5 border-info" alt="Humidity">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-sm-3 p-1">
+                        <a href="cloudiness.html">
+                            <img src="Images/Fig_03.png" class="img-fluid" alt="Cloudiness">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 col-sm-3 p-1">
+                        <a href="wind-speed.html">
+                            <img src="Images/Fig_04.png" class="img-fluid" alt="Wind Speed">
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- CLOSE SIDEBAR -->
+
+        </div>
+    </div>
+    <!-- CLOSE CONTAINER -->
+
+
+    <!-- BOOTSTRAP JAVASCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
+<!-- CLOSE BODY -->
 
 </html>
