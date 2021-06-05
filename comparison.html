@@ -18,9 +18,9 @@
 
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark pt-2 pb-1">
+    <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top pt-2 pb-1">
         <!-- Title Button -->
-        <a class="navbar-brand bg-info text-light pl-3 pr-3 h1" href="index.html">Latitude</a>
+        <a class="navbar-brand bg-info text-light pl-3 pr-3 m-1 rounded h1" href="index.html">Latitude</a>
         <button class="navbar-toggler bg-info" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -58,35 +58,62 @@
 
 
     <!-- CONTAINER -->
-    <div class="container p-5">
+    <div class="container pt-5">
         <div class="row">
 
             <!-- MAIN COLUMN -->
-            <div class="col bg-light p-4">
+            <div class="col bg-light">
 
                 <!-- Header Row -->
                 <div class="row">
-                    <div class="h3 col text-info p-3">
-                        Comparison: Latitude vs. X
-                        <hr />
+                    <div class="col pt-4 pb-5 pl-5 pr-5">
+
+                        <div class="h3 text-info">
+                            Comparison: Latitude vs. X
+                            <hr />
+                        </div>
+
+                        <div class="paragraph">
+                            Click any plot to gen an in-depth analysis.
+                        </div>
+
                     </div>
                 </div>
 
                 <!-- Contents row -->
                 <div class="row">
 
-                    <div class="col-lg-6 col-sm-12 p-1">
-                        <a href="max-temperature.html"><img src="Images/Fig_01.png" class="img-fluid"
-                                alt="Max Temperature"></a>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pl-4 pr-4">
+                        <div class="h5 text-center text-info">vs. Max Temperature</div>
+                        <div class="d-flex justify-content-center">
+                            <a href="max-temperature.html">
+                            <img src="Images/Fig_01.png" class="img-fluid" alt="Max Temperature">
+                        </a></div>
+                        <hr />
                     </div>
-                    <div class="col-lg-6 col-sm-12 p-1">
-                        <a href="humidity.html"><img src="Images/Fig_02.png" class="img-fluid" alt="Humidity"></a>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pl-4 pr-4">
+                        <div class="h5 text-center text-info">vs. Humidity</div>
+                        <div class="d-flex justify-content-center">
+                        <a href="humidity.html">
+                            <img src="Images/Fig_02.png" class="img-fluid" alt="Humidity">
+                        </a></div>
+                        <hr />
                     </div>
-                    <div class="col-lg-6 col-sm-12 p-1">
-                        <a href="cloudiness.html"><img src="Images/Fig_03.png" class="img-fluid" alt="Cloudiness"></a>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pl-4 pr-4">
+                        <div class="h5 text-center text-info">vs. Cloudiness</div>
+                        <div class="d-flex justify-content-center">
+                        <a href="cloudiness.html">
+                            <img src="Images/Fig_03.png" class="img-fluid" alt="Cloudiness">
+                        </a></div>
+                        <hr />
                     </div>
-                    <div class="col-lg-6 col-sm-12 p-1">
-                        <a href="wind-speed.html"><img src="Images/Fig_04.png" class="img-fluid" alt="Wind Speed"></a>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pl-4 pr-4">
+                        <div class="h5 text-center text-info">vs. Wind Speed</div>
+                        <div class="d-flex justify-content-center">
+                        <a href="wind-speed.html">
+                            <img src="Images/Fig_04.png" class="img-fluid" alt="Wind Speed">
+                        </a></div>
+                        <hr />
                     </div>
 
                 </div>
