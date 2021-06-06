@@ -7,7 +7,7 @@ The scope of this project is to provide a visualization dashboard website displa
 ### Script Summary
 This website was built using HTML and Bootstrap 5 to provide a responsive behavior taking advantage of the grid-container-row-column model as well as utilities, components and icons.
 
-#### Website Features
+### Features
 * Navigation bar (fixed)
     * Dropdown menu
     * Icons
