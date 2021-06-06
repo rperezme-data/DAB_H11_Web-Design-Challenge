@@ -15,7 +15,6 @@ This website was built using HTML and Bootstrap 5 to provide a responsive behavi
 * Active state navigation (Visualizations)
 * Data table
 
-
 ### Screenshot
 ![Dashboard_Screenshot](Images/Dashboard_Screenshot.png)
 
