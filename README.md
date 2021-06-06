@@ -2,12 +2,18 @@
 ## Visualization Dashboard Website
 
 ### Description
-The scope of this project is to create a visualization dashboard website displaying weather data created in a previous project (WeatherPy). There is a landing page to summarize the dashboard, a comparison page to showcase all of the plots and a data page displaying the data used in the project. Individual pages for each plot were created, containing the visualizations and their corresponding explanations. 
+The scope of this project is to provide a visualization dashboard website displaying weather data created in a previous project (WeatherPy). There is a landing page to summarize the dashboard, a comparison page to showcase all of the plots and a data page displaying the data used in the project. Individual pages for each plot were created, containing the visualizations and their corresponding explanations. 
 
 ### Script Summary
-This website was built using HTML & Bootstrap 5 to provide a responsive behavior taking advantage of the grid-container-row-column model as well as utilities, components and icons.
+This website was built using HTML and Bootstrap 5 to provide a responsive behavior taking advantage of the grid-container-row-column model as well as utilities, components and icons.
 
-### Features
+#### Website Features
+* Navigation bar (fixed)
+    * Dropdown menu
+    * Icons
+* Responsive to media queries
+* Active state navigation (Visualizations)
+* Data table
 
 
 ### Screenshot
