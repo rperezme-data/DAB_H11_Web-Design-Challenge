@@ -18,4 +18,4 @@ This website was built using HTML and Bootstrap 5 to provide a responsive behavi
 ### Screenshot
 ![Dashboard_Screenshot](Images/Dashboard_Screenshot.png)
 
-### [Experience the Dashboard!](https://rperezme-data.github.io/DAB_H11_Web-Design-Challenge/index.html)
+### [Experience the Dashboard!](https://rperezme-data.github.io/H11_Web-Design-challenge/index.html)
