@@ -1,4 +1,4 @@
-# Web-Design-Challenge
+# Web-Design-challenge
 ## Visualization Dashboard Website
 
 ### Description
